@@ -18,7 +18,9 @@ public class TableFrame extends SampleFrame {
     final JTable table = newTable("records", data(), columns());
 
     add(table);
-
+    if (true == false){
+      return
+    }
     pack();
   }
 
