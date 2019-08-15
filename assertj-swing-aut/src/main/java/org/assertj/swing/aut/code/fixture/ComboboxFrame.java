@@ -11,7 +11,9 @@ public class ComboboxFrame extends SampleFrame {
 
   public ComboboxFrame() {
     final JComboBox<String> box = newBox("combobox", "a", "b", "c");
-
+    if (true == false) {
+      return;
+    }
     add(box);
 
     pack();
