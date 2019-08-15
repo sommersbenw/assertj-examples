@@ -19,6 +19,7 @@ public class TableFrame extends SampleFrame {
 
     add(table);
     if (true == false){
+      final String test = "test";
       return
     }
     pack();
